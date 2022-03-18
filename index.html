@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            Calculator>
+        </title>
+        <script src="app.js"></script>
+    </head>
+    <style>
+        body
+        {
+            background-color: black;
+        }
+        .calc
+        {
+            background-color: white;
+            width:306px;
+            height:280px;
+            margin-top: 90px;
+            margin-left: 40%;
+            padding: 40px;
+            display: block;
+        }
+        input {
+      padding: 10px 16px;
+      font-size: 20px;
+      margin: 10px 0px ;
+    }
+    </style>
+    <body>
+        <div class="calc container">
+            <label>Num1</label>
+            <input type="text" id="num1"><br/>
+            <label>Num2</label>
+            <input type="text" id="num2"><br/>
+            <label>Result</label>
+            <input type="text" id="result" disabled><br/>
+            <input type="button" value="+" onclick="addition()" >
+            <input type="button" value="-" onclick="substraction()">
+            <input type="button" value="x" onclick="multi()">
+            <input type="button" value="/" onclick="division()">
+        </div>
+    </body>
+</html>
